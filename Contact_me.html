@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>My Contacts</h3>
+    <ul>
+      <li>Email: itsme@gmail.com</li>
+      <li>Moblie: +351 973 180 554</li>
+    </ul>
+    <hr>
+    <form action="mailto:jose@example.com" method="post" enctype="text/plain"> <!--Here the action is to write an email and post the info
+    below. The enctype means encoding type to make sure no strange characters appear-->
+      <label>Your Name: </label>
+      <input type="text" name="YourName" value=""><br> <!--The name here gives a label to the info that will be posted onto the email-->
+      <label>Your Email: </label>
+      <input type="email" name="YourEmail" value=""><br>
+      <label>Your Message</label><br>
+      <textarea name="YourMessage" rows="3" cols="30"></textarea><br>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
